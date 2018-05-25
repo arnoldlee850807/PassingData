@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController2: UIViewController {
 
+    var instance: ViewController?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         myTextField.text = passText
@@ -27,6 +29,13 @@ class ViewController2: UIViewController {
     
     @IBOutlet weak var myTextFieldSegue: UITextField!
     var passTextSegue: String?
+    
+    
+    @IBAction func manage(_ sender: UIButton) {
+        instance?.myTextField.text = "Happy Coding~ :)"
+        dismiss(animated: true, completion: nil)
+    }
+    
     
     /*
     // MARK: - Navigation
