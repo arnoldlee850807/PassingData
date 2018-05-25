@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  PassingData
 //
-//  Created by i_skyhung on 2018/5/15.
-//  Copyright © 2018年 i_skyhung. All rights reserved.
+//  Created by Arnold Lee on 2018/5/15.
+//  Copyright © 2018年 Arnold Lee. All rights reserved.
 //
 
 import UIKit
